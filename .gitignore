@@ -1,0 +1,35 @@
+# ============================================================
+#  Presto / ia  -  monorepo de microservicios
+#  Repo PUBLICO: aca NUNCA van contrasenas ni API keys.
+# ============================================================
+
+# --- Secretos: jamas subir .env reales ---
+.env
+**/.env
+!**/.env.example
+
+# --- Entornos virtuales de Python ---
+.venv/
+venv/
+**/venv/
+**/.venv/
+
+# --- Python ---
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# --- Logs de ejecucion ---
+logs/
+*.log
+
+# --- Node (por si se agrega el frontend) ---
+node_modules/
+
+# --- Carpetas que NO forman parte de este monorepo ---
+Front/
+ia_presto/
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db

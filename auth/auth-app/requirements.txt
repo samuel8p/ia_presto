@@ -1,0 +1,6 @@
+Flask>=3.1
+pymongo>=4.17
+bcrypt>=5.0
+python-dotenv>=1.2
+PyJWT>=2.10
+dnspython>=2.7

@@ -1,0 +1,7 @@
+fastapi>=0.115
+uvicorn[standard]>=0.34
+pymongo>=4.10
+dnspython>=2.7
+PyJWT>=2.10
+python-dotenv>=1.0
+openai>=1.60
